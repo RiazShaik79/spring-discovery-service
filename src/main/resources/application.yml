@@ -1,0 +1,13 @@
+server:
+   port: 8761
+   ssl:
+      enabled: true
+#     client-auth: need
+      key-store: classpath:discovery-cert.jks
+      key-store-password: India330$$
+      keyStoreType: JKS
+      keyStoreProvider: SUN
+      keyAlias: discovery-cert
+      trust-store: classpath:discovery-cert.jks
+      trust-store-password: India330$$
+      trust-store-type: JKS
